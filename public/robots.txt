@@ -1,0 +1,24 @@
+# Block all crawlers for
+User-agent: *
+Disallow: /gerencia
+Disallow: /icons
+
+User-agent: SemrushBot
+Crawl-delay: 10
+
+User-agency: AhrefsBot
+Crawl-delay: 10
+
+User-agency: Go-http-client/1.1
+Crawl-delay: 10
+
+User-agency: Go-http-client/2.0
+Crawl-delay: 10
+
+User-agent: dotbot
+Crawl-delay: 10
+
+User-agent: Bingbot
+Crawl-delay: 10
+
+Sitemap: https://www.oreporter.com/sitemap.xml

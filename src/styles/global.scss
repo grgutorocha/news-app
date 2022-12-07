@@ -1,0 +1,51 @@
+#nprogress .bar {
+  background: #1c5172;
+  height: 4px;
+}
+
+.custom-ads {
+  &--medium {
+    width: 300px;
+    height: 250px;
+  }
+
+  &--half-page {
+    width: 300px;
+    height: 250px;
+
+    @media (min-width: 768px) {
+      width: 300px;
+      height: 600px;
+    }
+  }
+
+  &--maxiboard {
+    width: 300px;
+    height: 250px;
+
+    @media (min-width: 768px) {
+      width: 600px;
+      height: 150px;
+    }
+
+    @media (min-width: 992px) {
+      width: 970px;
+      height: 150px;
+    }
+  }
+
+  &--billboard {
+    width: 300px;
+    height: 250px;
+
+    @media (min-width: 768px) {
+      width: 600px;
+      height: 250px;
+    }
+
+    @media (min-width: 992px) {
+      width: 970px;
+      height: 250px;
+    }
+  }
+}
